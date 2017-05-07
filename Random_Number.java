@@ -6,7 +6,7 @@ public class Random_Number {
 		int number;
 		
 		for(int counter=1; counter<=10; counter++){
-			number = dice.nextInt(6);
+			number = 1+dice.nextInt(6);
 			System.out.println(number + " ");
 			
 			
